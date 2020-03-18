@@ -1,6 +1,8 @@
 # About
 demo - MATLAB code for our CVPR 2020 paper:
+
 "Globally Optimal Contrast Maximisation for Event-based Motion Estimation" CVPR 2020 [pdf](https://arxiv.org/abs/2002.10686)
+
 [Daqi Liu](https://sites.google.com/view/daqiliu/home), [Álvaro Parra](https://cs.adelaide.edu.au/~aparra/) and [Tat-jun Chin](https://cs.adelaide.edu.au/~tjchin/doku.php?id=start).
 
 # Description
