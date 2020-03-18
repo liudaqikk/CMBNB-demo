@@ -1,0 +1,7 @@
+-I/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3
+-I/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/demos/mandelbrot/mandelbrot.moc
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/demos/mandelbrot/mandelbrot.h

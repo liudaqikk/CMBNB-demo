@@ -1,0 +1,14 @@
+-I/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3
+-I/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir
+-I/usr/include/qt4
+-I/usr/include/qt4/QtOpenGL
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/usr/include/qt4
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_OPENGL_LIB
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/demos/opengl/quaternion_demo.moc
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/demos/opengl/quaternion_demo.h

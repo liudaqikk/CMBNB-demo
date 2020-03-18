@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/unsupported/test/cxx11_tensor_casts.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "cxx11_tensor_casts"
+	}
+}

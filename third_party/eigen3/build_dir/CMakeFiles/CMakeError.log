@@ -1,0 +1,273 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adade/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adade.dir/build.make CMakeFiles/cmTC_adade.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_adade.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_adade.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_adade.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_adade.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_adade.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_adade/fast' failed
+make: *** [cmTC_adade/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c930c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c930c.dir/build.make CMakeFiles/cmTC_c930c.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c930c.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_c930c.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+CMakeFiles/cmTC_c930c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c930c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c930c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c930c/fast' failed
+make: *** [cmTC_c930c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0b83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0b83.dir/build.make CMakeFiles/cmTC_d0b83.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0b83.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_d0b83.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+CMakeFiles/cmTC_d0b83.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d0b83.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d0b83.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d0b83/fast' failed
+make: *** [cmTC_d0b83/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d918/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d918.dir/build.make CMakeFiles/cmTC_2d918.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d918.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_2d918.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_2d918.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2d918.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2d918.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2d918/fast' failed
+make: *** [cmTC_2d918/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd473/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd473.dir/build.make CMakeFiles/cmTC_bd473.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd473.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_bd473.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_bd473.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bd473.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_bd473.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bd473/fast' failed
+make: *** [cmTC_bd473/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec35d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec35d.dir/build.make CMakeFiles/cmTC_ec35d.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec35d.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_ec35d.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+CMakeFiles/cmTC_ec35d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ec35d.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ec35d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec35d/fast' failed
+make: *** [cmTC_ec35d/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b526/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9b526.dir/build.make CMakeFiles/cmTC_9b526.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b526.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_9b526.dir/src.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'; did you mean '-Wunused-argument'?
+CMakeFiles/cmTC_9b526.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9b526.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9b526.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9b526/fast' failed
+make: *** [cmTC_9b526/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb423/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb423.dir/build.make CMakeFiles/cmTC_cb423.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb423.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_cb423.dir/CheckSymbolExists.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+CMakeFiles/cmTC_cb423.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cb423.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cb423.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb423/fast' failed
+make: *** [cmTC_cb423/fast] Error 2
+
+File /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88078/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88078.dir/build.make CMakeFiles/cmTC_88078.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88078.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_88078.dir/CheckSymbolExists.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+CMakeFiles/cmTC_88078.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_88078.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_88078.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_88078/fast' failed
+make: *** [cmTC_88078/fast] Error 2
+
+File /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9fa38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9fa38.dir/build.make CMakeFiles/cmTC_9fa38.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9fa38.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_9fa38.dir/CheckSymbolExists.cxx.o -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+CMakeFiles/cmTC_9fa38.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9fa38.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9fa38.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9fa38/fast' failed
+make: *** [cmTC_9fa38/fast] Error 2
+
+File /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73e49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73e49.dir/build.make CMakeFiles/cmTC_73e49.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73e49.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_73e49.dir/CheckSymbolExists.c.o   -c /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_73e49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e49.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_73e49.dir/CheckSymbolExists.c.o  -o cmTC_73e49 
+CMakeFiles/cmTC_73e49.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_73e49.dir/build.make:97: recipe for target 'cmTC_73e49' failed
+make[1]: *** [cmTC_73e49] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_73e49/fast' failed
+make: *** [cmTC_73e49/fast] Error 2
+
+File /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a851f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a851f.dir/build.make CMakeFiles/cmTC_a851f.dir/build
+make[1]: Entering directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a851f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a851f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a851f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a851f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a851f.dir/CheckFunctionExists.c.o  -o cmTC_a851f -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a851f.dir/build.make:97: recipe for target 'cmTC_a851f' failed
+make[1]: *** [cmTC_a851f] Error 1
+make[1]: Leaving directory '/media/daqi/file/documen/project/SSA_reference/reading/code/point_process_optimisation-master/source/eigen3/build_dir/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a851f/fast' failed
+make: *** [cmTC_a851f/fast] Error 2
+
+
