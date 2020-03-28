@@ -6,7 +6,7 @@ demo - MATLAB code for our CVPR 2020 paper:
 [Daqi Liu](https://sites.google.com/view/daqiliu/home), [Álvaro Parra](https://cs.adelaide.edu.au/~aparra/) and [Tat-jun Chin](https://cs.adelaide.edu.au/~tjchin/doku.php?id=start).
 
 # Description
-demo.m runs our CMBnB and CMGD (contrast maximization with conjugate gradient, our impelmentation) on a subsequence from dynamic with about 19,000 
+demo.m runs CMGD and our CMBnB and (contrast maximization with conjugate gradient and our impelmentation) on a subsequence from dynamic with about 19,000 
 events. To execute the demo just run demo.m in MATLAB. The script will:
 * show the input stream and the event image without motion compensation,
 * run CMBnB and CMGD, and
