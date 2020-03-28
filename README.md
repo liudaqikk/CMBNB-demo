@@ -37,4 +37,9 @@ run compile.m in MATLAB.
 Code runs on full sequence of event is coming soon
 
 # Support
-If you have any questions/bugs to report, please feel free to contact me
+If you have any questions/bugs to report, please feel free to [contact the author](https://sites.google.com/view/daqiliu/home)
+
+# License
+For a closed-source version of CMBNB (e.g., for commercial purposes), please [contact the author](https://sites.google.com/view/daqiliu/home).
+
+For an academic use of CMBNB, please cite [Daqi Liu](https://sites.google.com/view/daqiliu/home), [Álvaro Parra](https://cs.adelaide.edu.au/~aparra/) and [Tat-jun Chin](https://cs.adelaide.edu.au/~tjchin/doku.php?id=start), Globally Optimal Contrast Maximisation for Event-based Motion Estimation, CVPR 2020.
