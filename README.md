@@ -25,10 +25,6 @@ Demo and code have been tested under
 
 This library is included.
 
-# Dataset 
-Full dynamic, poster and boxes dataset can be downloaded [here](http://rpg.ifi.uzh.ch/davis_data.html)
-
-Full Star tracking dataset can be downloaded [here](https://cs.adelaide.edu.au/~tjchin/startracking/)
 
 # Compilation and Run
 
