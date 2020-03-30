@@ -22,6 +22,7 @@ Demo and code have been tested under
 
 # Dependencies
 [eigen3 library](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+[OpenMp](https://www.openmp.org)
 
 This library is included.
 
