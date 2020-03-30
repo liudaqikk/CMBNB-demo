@@ -21,11 +21,11 @@ Demo and code have been tested under
 * GCC v7
 
 # Dependencies
-[eigen3 library](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+[eigen3 library](http://eigen.tuxfamily.org/index.php?title=Main_Page),This library is included.
 
 [OpenMp](https://www.openmp.org)
 
-This library is included.
+
 
 
 # Compilation and Run
