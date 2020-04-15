@@ -6,7 +6,7 @@ demo - MATLAB code for our CVPR 2020 paper:
 [Daqi Liu](https://sites.google.com/view/daqiliu/home), [Álvaro Parra](https://cs.adelaide.edu.au/~aparra/) and [Tat-jun Chin](https://cs.adelaide.edu.au/~tjchin/doku.php?id=start).
 
 # Description
-demo.m runs CMGD and our CMBnB and (contrast maximization with conjugate gradient and our impelmentation) on a subsequence from dynamic with about 19,000 
+demo.m runs CMGD[1] and our CMBnB and (contrast maximization with conjugate gradient and our impelmentation) on a subsequence from dynamic with about 19,000 
 events. To execute the demo just run demo.m in MATLAB. The script will:
 * show the input stream and the event image without motion compensation,
 * run CMBnB and CMGD, and
@@ -19,12 +19,13 @@ Demo and code have been tested under
 * Ubuntu 18.04
 * MATLAB R2019a
 * GCC v7
-
+[1] Guillermo Gallego, Henri Rebecq, and Davide Scaramuzza. A unifying contrast maximization framework for event cam- eras, with applications to motion, depth, and optical flow es- timation. In Proceedings of the IEEE Conference on Com- puter Vision and Pattern Recognition, pages 3867–3876, 2018
 # Dependencies
 [eigen3 library](http://eigen.tuxfamily.org/index.php?title=Main_Page),This library is included.
 
 [OpenMp](https://www.openmp.org)
 
+[MATLAB global optimization toolbox](https://au.mathworks.com/products/global-optimization.html)
 
 
 
