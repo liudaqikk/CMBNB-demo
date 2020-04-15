@@ -19,6 +19,7 @@ Demo and code have been tested under
 * Ubuntu 18.04
 * MATLAB R2019a
 * GCC v7
+
 [1] Guillermo Gallego, Henri Rebecq, and Davide Scaramuzza. A unifying contrast maximization framework for event cam- eras, with applications to motion, depth, and optical flow es- timation. In Proceedings of the IEEE Conference on Com- puter Vision and Pattern Recognition, pages 3867–3876, 2018
 # Dependencies
 [eigen3 library](http://eigen.tuxfamily.org/index.php?title=Main_Page),This library is included.
