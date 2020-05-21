@@ -48,8 +48,7 @@ int reg::search::rot3_matches(const MatrixXd &X, VectorXd &lowerB, VectorXd &upp
     //mxAssert(rempts>0, "rempts>0");
 
     const int buckets = MAX(10, (int)X.cols()/10);
-    //int gap = 10000; // for boxs and dynamic and poster
-    int gap = 5000; //for shapes
+    int gap = 200000; 
     int lwbnd = 0;
     int qual = bnb_search_table<SSR,8>(*dsi0,*dsi1,*dsi2,*dsi3,*dsi4,*dsi5,*dsi6,*dsi7,
                                       lwbnd, gap, buckets,guessAndResult);

@@ -329,6 +329,9 @@ void MatchesIndexation<SSR>::pixUcir(int i, double lx1, double ly1, double ux1, 
   int x = ux - lx + 1;
   int y = uy - ly + 1;
   int lm = 0;
+  if (i==0){
+       cout<<"xylxlyuxuy: "<<x<<' '<<y<<' '<<lx1<<' '<<ly1<<' '<< ux1<<' '<<uy1<<endl;
+  }
   ArrayXXi im;
   if (ux > 0 && uy > 0 && lx <= 240 && ly <= 180){
     if (x > 1 ||  y > 1){
@@ -337,7 +340,7 @@ void MatchesIndexation<SSR>::pixUcir(int i, double lx1, double ly1, double ux1, 
         //cout<<"i: "<<i<<endl;
         //cout<<"cr: "<<cr.row(i)<<endl;
         //cout<<"im: "<<im<<endl;
-        //cout<<"xylxlyuxuy: "<<x<<' '<<y<<' '<<lx<<' '<<ly<<' '<< ux<<' '<<uy<<endl;
+        
     }else{
       upper_image(ly-1,lx-1) ++ ;
       lm = upper_image(ly-1,lx-1);
@@ -348,91 +351,51 @@ void MatchesIndexation<SSR>::pixUcir(int i, double lx1, double ly1, double ux1, 
     compute_localmax(lm);
   }
 }
+
 template <class SSR>
-ArrayXXi MatchesIndexation<SSR>::midptellipse(double rx, double ry, double xc, double yc,int row, int col){
-    ArrayXXi im = ArrayXXi::Zero(row,col);
-    double dx, dy, d1, d2, y;
-    double xx = 0;
-    if (ry < radius_limit){
-      ry = 0;
+ArrayXXi MatchesIndexation<SSR>::midptellipse(double r, double ry, double xc, double yc,int row, int col){
+    double y;
+  if (r < radius_limit){
+    r = 0;
+  }
+  if (round_require == TRUE){
+   y = round(r);
+   xc = round(xc);
+   yc = round(yc);
+  }else{
+   y = r;
+   //cout<<xc<<endl;
+  }
+
+  ArrayXXi im = ArrayXXi::Zero(row,col);
+  double x = 0;
+  double d = 1 -r;
+  double a;
+
+  im(max(min((int)round(xc),row-1),0),max(min((int)round(yc+y),col-1),0)) = TRUE;
+  im(max(min((int)round(xc),row-1),0),max(min((int)round(yc-y),col-1),0)) = TRUE;
+  im(max(min((int)round(xc+y),row-1),0),max(min((int)round(yc),col-1),0)) = TRUE;
+  im(max(min((int)round(xc-y),row-1),0),max(min((int)round(yc),col-1),0)) = TRUE;
+  while ( x < y - 1 ){
+    x = x + 1;
+    if ( d < 0 ){
+        d = d + x + x + 1;
     }
-    if (rx < radius_limit){
-      rx = 0;
+    else{
+        y = y - 1;
+        a = x - y + 1;
+        d = d + a + a;
     }
-    //cout << xx << endl;
-    if (round_require == TRUE){
-      ry = round(ry);
-      rx = round(rx);
-      xc = round(xc);
-      yc = round(yc);
-    }
-    y = ry;
-
-    // Initial decision parameter of region 1
-    d1 = (ry * ry) - (rx * rx * ry) +
-                     (0.25 * rx * rx);
-    dx = 2 * ry * ry * xx;
-    dy = 2 * rx * rx * y;
-    // For region 1
-    while (dx < dy)
-    {
-
-        // Print points based on 4-way symmetry
-        im(max(min((int)round(xx+xc),row-1),0), max(min((int)round(y+yc),col-1),0)) = 1;
-        im(max(min((int)round(xc-xx),row-1),0), max(min((int)round(yc+y),col-1),0)) = 1;
-        im(max(min((int)round(xx+xc),row-1),0), max(min((int)round(yc-y),col-1),0)) = 1;
-        im(max(min((int)round(xc-xx),row-1),0), max(min((int)round(yc-y),col-1),0)) = 1;
-
-        // Checking and updating value of
-        // decision parameter based on algorithm
-
-        if (d1 < 0)
-        {
-            xx = xx + 1;
-            dx = dx + (2 * ry * ry);
-            d1 = d1 + dx + (ry * ry);
-        }
-        else{
-            xx = xx + 1;
-            y = y - 1;
-            dx = dx + (2 * ry * ry);
-            dy = dy - (2 * rx * rx);
-            d1 = d1 + dx - dy + (ry * ry);
-        }
-    }
-
-    // Decision parameter of region 2
-    d2 = ((ry * ry) * ((xx + 0.5) * (xx + 0.5))) +
-         ((rx * rx) * ((y - 1) * (y - 1))) -
-          (rx * rx * ry * ry);
-
-    // Plotting points of region 2
-    while (y >= 0)
-    {
-
-        // Print points based on 4-way symmetry
-        im(max(min((int)round(xx+xc),row-1),0), max(min((int)round(y+yc),col-1),0)) = 1;
-        im(max(min((int)round(xc-xx),row-1),0), max(min((int)round(yc+y),col-1),0)) = 1;
-        im(max(min((int)round(xx+xc),row-1),0), max(min((int)round(yc-y),col-1),0)) = 1;
-        im(max(min((int)round(xc-xx),row-1),0), max(min((int)round(yc-y),col-1),0)) = 1;
-
-        // Checking and updating parameter
-        // value based on algorithm
-        if (d2 > 0)
-        {
-            y = y - 1;
-            dy = dy - (2 * rx * rx);
-            d2 = d2 + (rx * rx) - dy;
-        }
-        else
-        {
-            y = y - 1;
-            xx = xx + 1;
-            dx = dx + (2 * ry * ry);
-            dy = dy - (2 * rx * rx);
-            d2 = d2 + dx - dy + (rx * rx);
-        }
-    }
+    im(max(min((int)round(x+xc),row-1),0), max(min((int)round(y+yc),col-1),0)) = 1;
+    im(max(min((int)round(y+xc),row-1),0), max(min((int)round(x+yc),col-1),0)) = 1;
+    im(max(min((int)round(y+xc),row-1),0), max(min((int)round(yc-x),col-1),0)) = 1;
+    im(max(min((int)round(x+xc),row-1),0), max(min((int)round(yc-y),col-1),0)) = 1;
+    im(max(min((int)round(xc-x),row-1),0), max(min((int)round(yc-y),col-1),0)) = 1;
+    im(max(min((int)round(xc-y),row-1),0), max(min((int)round(yc-x),col-1),0)) = 1;
+    im(max(min((int)round(xc-y),row-1),0), max(min((int)round(yc+x),col-1),0)) = 1;
+    im(max(min((int)round(xc-x),row-1),0), max(min((int)round(yc+y),col-1),0)) = 1;
+  }
+    
     return im;
 }
 
